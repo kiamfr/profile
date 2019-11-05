@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:800&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container, .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container, .card {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+  font-family: 'Open Sans', sans-serif;
+  color: #373331;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #80ac7b;
+  font-size: 32px
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #80ac7b;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+
+.container {
+  background-color: white;
+  /*width: 700px;*/
+  margin: 24px 32px auto;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgb(230,230,230);
+  padding: 24px 16px;
+  margin-bottom: 16px;
+}
+
+.card {
+  background-color: white;
+  /*width: 700px;*/
+  margin: 24px 32px auto;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgb(230,230,230);
+  padding: 24px 16px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  font-size: 48px;
+}
+
+.round-img {
+  border-radius: 50%;
+}
+
+#purple-button {
+  color: white;
+  background-color: rgb(100, 100, 100);
+  padding: 16px 16px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#purple-button:hover {
+  background-color: #543472;
+  color: white;
+}
+
+.fab:hover {
+  color: #543472;
+}
