@@ -44,19 +44,13 @@ a {
 }
 
 .container {
-  background-color: white;
-  /*width: 700px;*/
-  margin: 24px 32px auto;
-  padding-top: 10px;
-  text-align: center;
-  box-shadow: 4px 4px 4px rgb(230,230,230);
-  padding: 24px 16px;
-  margin-bottom: 16px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .card {
   background-color: white;
-  /*width: 700px;*/
+  /*width: 500px;*/
   margin: 24px 32px auto;
   padding-top: 10px;
   text-align: center;
